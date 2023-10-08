@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - Entry point of the program
  *
- * Description: This program uses the sizeof operator to print the size of various data types
+ * Description: This program uses the sizeof operator
+ * to print the size of various data types
  *
- * Return: 0 : (Always 0 when successful)
+ * Return: Always 0 when successful
  */
 int main(void)
 {
@@ -19,6 +21,5 @@ int main(void)
 	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
-
 	return (0);
 }
